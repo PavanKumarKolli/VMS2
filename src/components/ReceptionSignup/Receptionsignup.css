@@ -1,0 +1,63 @@
+.receptionsignup-label-container div {
+  display: flex;
+  flex-direction: column;
+}
+.receptionsignup-label-container {
+  gap: 2rem;
+}
+.receptionsignup-label-container input {
+  border: none;
+  outline-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 35px;
+}
+.receptionsignup-label-container div label {
+  font-weight: 400;
+  font-style: bold;
+}
+.receptionsignup-label-container span {
+  border: 1px solid grey;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 12px;
+}
+.receptionsignup-checkbox-container {
+  width: 350px;
+  border: none;
+  outline-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.receptionsignup-checkbox-container span {
+  outline-style: none;
+  border: none;
+}
+.receptionsignup-from-controller {
+  width: 400px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+.receptionsignup-main-totaldiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+.receptionsignup-donthaveaccount {
+  display: flex;
+  flex-direction: row;
+}

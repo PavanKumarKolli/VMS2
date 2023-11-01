@@ -1,0 +1,121 @@
+.EditDetails-labels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.EditDetails-labels-container div {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  gap: 1rem;
+}
+.EditDetails-labels-container div span {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 12px;
+}
+.EditDetails-labels-container div input {
+  outline-style: none;
+  border: none;
+  height: 40px;
+  padding: 2px;
+}
+.EditDetails-labels-container div select {
+  outline-style: none;
+  border: none;
+  height: 40px;
+  padding: 2px;
+  border: 1px solid grey;
+}
+.EditDetails-labels-container div label {
+  font-style: bold;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.EditDetails-form-controller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 500px;
+  padding: 10px;
+  cursor: text;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+}
+.EditDetails-mainform-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.EditDetails-header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  color: white;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+}
+.EditDetails-header-options-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.EditDetails-header-options-container button {
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  border: none;
+  outline-style: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+}
+.Edit__details--button {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.EditDetails__name__phone {
+  display: flex;
+  flex-direction: row !important;
+  gap: 0.5rem;
+  margin-top: 10px;
+  /* border: 1px solid red; */
+}
+.EditDetails__name__phone > div {
+  width: 50%;
+}
+.Editdetails-select-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  width: 80%;
+}
+.Editdetails-select-options > select {
+  height: 35px;
+}

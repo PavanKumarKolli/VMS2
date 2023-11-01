@@ -1,0 +1,185 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+td:hover {
+  background-color: #17494d;
+  color: white;
+}
+th span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+th span > :nth-child(1) {
+  background-color: rgb(19, 104, 214);
+  border: none;
+  outline-style: none;
+  color: white;
+  border-radius: 3px;
+  height: 30px;
+}
+th span > :nth-child(1):hover {
+  background-color: rgb(10, 74, 156);
+  cursor: pointer;
+}
+th span > :nth-child(2) {
+  background-color: red;
+  border: none;
+  outline-style: none;
+  color: white;
+  border-radius: 3px;
+  height: 30px;
+}
+th span > :nth-child(2):hover {
+  background-color: rgb(180, 12, 12);
+  cursor: pointer;
+  background-color: none;
+}
+.Receptionlist-table-container {
+  width: 100%;
+  border: 1px solid rgb(255, 13, 13);
+  background-color: none;
+  height: 100px;
+}
+td {
+  text-align: center;
+}
+.Receptionlist-header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Receptionlist-header-options-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.Receptionlist-header-options-container button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  border: none;
+  outline-style: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+}
+.Receptionlist-vistors {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(170, 51, 130);
+  border-radius: 6px;
+  color: white;
+}
+.Receptionlist-vistor-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px;
+  cursor: pointer;
+}
+.Receptionlist-Business {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(66, 123, 230);
+  color: white;
+  border-radius: 6px;
+}
+.Receptionlist-Personal {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(194, 118, 55);
+  color: white;
+  border-radius: 6px;
+}
+.Receptionlist-jobsvisit {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(231, 75, 75);
+  color: white;
+  border-radius: 6px;
+}
+.Receptionlist-Appcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.Receptionlist-Appcontainer h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Receptionlist-classification-header {
+  width: 95%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Receptionlist-addbutton {
+  border: none;
+  outline-style: none;
+  background-color: rgb(7 147 239);
+  width: 150px;
+  height: 35px;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.Receptionlist-addbutton:hover {
+  background-color: rgb(8, 93, 150);
+}

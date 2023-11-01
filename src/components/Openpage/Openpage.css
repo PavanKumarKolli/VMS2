@@ -1,0 +1,142 @@
+.open-header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+
+  /* position: fixed; */
+}
+
+.open-header-options-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.open-header-options-container button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  border: none;
+  outline-style: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+}
+.open-vistors {
+  width: 200px;
+  /* height: 150px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(170, 51, 130, 0.5);
+  border-radius: 6px;
+  color: white;
+}
+.open-vistor-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px;
+  cursor: pointer;
+}
+.open-Business {
+  width: 200px;
+  /* height: 150px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(66, 123, 230, 0.5);
+  color: white;
+  border-radius: 6px;
+}
+.open-Personal {
+  width: 200px;
+  /* height: 150px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(194, 118, 55, 0.5);
+  color: white;
+  border-radius: 6px;
+}
+.open-jobsvisit {
+  width: 200px;
+  /* height: 150px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(231, 75, 75);
+  color: white;
+  border-radius: 6px;
+  background-color: rgba(235, 25, 25, 0.5);
+}
+.open-admin-container {
+  width: 250px;
+  height: 250px;
+  padding: 12px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.open-profile-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  outline-style: none;
+  height: 250px;
+  padding: 12px;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.open-profile-container div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: start;
+  align-items: center;
+  width: 100%;
+}
+hr {
+  width: 80%;
+}
+.open-total-profilediv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}

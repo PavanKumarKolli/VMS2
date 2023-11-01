@@ -1,0 +1,66 @@
+.new-label-container div {
+  display: flex;
+  flex-direction: column;
+}
+.new-label-container {
+  gap: 2rem;
+}
+.new-label-container input {
+  border: none;
+  outline-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10px;
+  height: 35px;
+}
+.new-label-container div label {
+  font-weight: 400;
+  font-style: bold;
+}
+.new-label-container span {
+  border: 1px solid grey;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 12px;
+}
+.new-checkbox-container {
+  width: 350px;
+  border: none;
+  outline-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.new-checkbox-container span {
+  outline-style: none;
+  border: none;
+}
+.new-from-controller {
+  width: 400px;
+  /* height: 350px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  line-height: 3;
+  border-radius: 8px;
+}
+.new-main-totaldiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+.new-donthaveaccount > span {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}

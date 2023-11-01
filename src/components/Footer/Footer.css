@@ -1,0 +1,29 @@
+.footer-sidelines-container {
+  width: 60%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-down-logoi {
+  width: 30%;
+  border: "1px solid blue";
+}
+.footer-main-divcontainer {
+  width: 100%;
+  background-color: #1ca9c9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 10vh;
+  color: white;
+  position: absolute;
+  top: 90%;
+}
+.footer-sidelines-containerdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}

@@ -1,0 +1,276 @@
+.VisiterTop-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.VisiterTop-options-container {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.VisiterTop-options-container button {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 6px;
+  border: none;
+  outline-style: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+}
+.VisiterTop-vistors {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(170, 51, 130);
+  border-radius: 6px;
+  color: white;
+}
+.VisiterTop-vistor-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px;
+  cursor: pointer;
+}
+.VisiterTop-Business {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(66, 123, 230);
+  color: white;
+  border-radius: 6px;
+}
+.VisiterTop-Personal {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(194, 118, 55);
+  color: white;
+  border-radius: 6px;
+}
+.VisiterTop-jobsvisit {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(231, 75, 75);
+  color: white;
+  border-radius: 6px;
+}
+@media (max-width: 786px) {
+  .VisiterTop-vistor-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+td:hover {
+  background-color: #17494d;
+  color: white;
+}
+th span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+th span > :nth-child(1) {
+  background-color: rgb(19, 104, 214);
+  border: none;
+  outline-style: none;
+  color: white;
+  border-radius: 3px;
+  height: 30px;
+}
+th span > :nth-child(1):hover {
+  background-color: rgb(10, 74, 156);
+  cursor: pointer;
+}
+th span > :nth-child(2) {
+  background-color: red;
+  border: none;
+  outline-style: none;
+  color: white;
+  border-radius: 3px;
+  height: 30px;
+}
+th span > :nth-child(2):hover {
+  background-color: rgb(180, 12, 12);
+  cursor: pointer;
+  background-color: none;
+}
+.vistior-table-container {
+  width: 100%;
+  border: 1px solid rgb(255, 13, 13);
+  background-color: none;
+}
+td {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.Visitor-Appcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.Visitor-Appcontainer h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Visitor-classification-header {
+  width: 95%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.visitor-tabdiv-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.visitor-addbutton {
+  border: none;
+  outline-style: none;
+  background-color: rgb(7 147 239);
+  width: 100px;
+  height: 35px;
+  color: white;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.visitor-addbutton:hover {
+  background-color: rgb(8, 93, 150);
+}
+
+/*  */
+
+.logout-vivistor-main-container {
+  padding: 30px;
+}
+
+.logout-vivistor-main-container h2 {
+  font-family: cursive;
+  color: #f5a67f;
+  text-align: center;
+}
+
+.logout-visitor-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.logout-visitor-card {
+  margin-bottom: 30px;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 210px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  height: 300px;
+  margin-right: 45px;
+  margin-bottom: 50px;
+}
+
+.logout-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  position: absolute;
+  top: -25px;
+  left: 29px;
+}
+
+.logout-after-image-container {
+  position: relative;
+  top: 120px;
+}
+
+.name-details-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name-details-card h5 {
+  font-family: "Lucida Handwriting";
+  font-family: cursive;
+  color: #f5c17f;
+}
+
+.name-details-card span {
+  font-family: cursive;
+  /* color: #f0c897;
+  color: #f0e4d5; */
+}
+.openpop {
+  position: absolute;
+  top: 0px;
+  left: 35%;
+}

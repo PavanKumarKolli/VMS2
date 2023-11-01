@@ -1,0 +1,39 @@
+.Headerform-header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  color: white;
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+}
+.Headerform-header-options-container {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Headerform-header-options-container button {
+  color: white;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 255, 226, 1) 0%,
+    rgba(2, 3, 212, 1) 100%
+  );
+  border: none;
+  outline-style: none;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+}

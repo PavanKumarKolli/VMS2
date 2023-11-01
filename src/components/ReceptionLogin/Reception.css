@@ -1,0 +1,49 @@
+.reception-labels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+.reception-labels-container div {
+  display: flex;
+  flex-direction: column;
+
+  width: 400px;
+  gap: 1rem;
+}
+.reception-labels-container div span {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 12px;
+}
+.reception-labels-container div input {
+  outline-style: none;
+  border: none;
+  height: 40px;
+  padding: 2px;
+}
+.reception-labels-container div label {
+  font-style: bold;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.reception-form-controller {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 20px;
+  cursor: text;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+}
+.reception-mainform-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
