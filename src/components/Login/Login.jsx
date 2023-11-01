@@ -39,7 +39,7 @@ const Login = () => {
               style={{ position: "relative" }}
             >
               <Link
-                style={{ textDecoration: "none", color: "black" }}
+                style={{ textDecoration: "none", color: "white" }}
                 to="/home"
               >
                 Home

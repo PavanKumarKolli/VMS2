@@ -208,7 +208,7 @@ export const VisiterTop = () => {
               <Link to="/">
                 <img
                   style={{ width: "150px", marginLeft: "20px" }}
-                  src="https://brihaspathi.com/img/logo/logo.png"
+                  src="./vistormangementlogo.png"
                   alt=""
                 />
               </Link>
@@ -241,7 +241,11 @@ export const VisiterTop = () => {
               >
                 My Profile
               </Link>
-              <button>Logout</button>
+              <button>
+                <Link style={{ textDecoration: "none", color: "white" }} to="/">
+                  Logout
+                </Link>
+              </button>
             </div>
           </div>
         </div>

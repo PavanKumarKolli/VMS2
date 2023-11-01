@@ -5,12 +5,8 @@ const Footer = () => {
     <div>
       <div className="footer-main-divcontainer">
         <div className="footer-down-logoi">
-          <img
-            style={{ width: "200px" }}
-            src="./vistormangementlogo.png"
-            // https://brihaspathi.com/img/logo/logo.png
-            alt=""
-          />
+          <h4>More About VMS</h4>
+          <span>It provides security</span>
         </div>
         <div className="footer-sidelines-container">
           <div className="footer-sidelines-containerdiv">

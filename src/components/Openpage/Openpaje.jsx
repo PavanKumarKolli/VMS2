@@ -47,7 +47,11 @@ const Openpage = () => {
           >
             View ResceptionList
           </Link>
-          <button>Logout</button>
+          <button>
+            <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              Logout
+            </Link>
+          </button>
         </div>
       </div>
 
