@@ -62,7 +62,7 @@ const Openpage = () => {
             }}
           >
             <span>Vistors</span>
-            <span>Total:9</span>
+            {/* <span>Total:9</span> */}
           </div>
         </div>
         <div className="open-Business">
@@ -75,7 +75,7 @@ const Openpage = () => {
             }}
           >
             <span>Business </span>
-            <span>Total:9</span>
+            {/* <span>Total:9</span> */}
           </div>
         </div>
         <div className="open-Personal">
@@ -88,7 +88,7 @@ const Openpage = () => {
             }}
           >
             <span>Personal</span>
-            <span>Total:9</span>
+            {/* <span>Total:9</span> */}
           </div>
         </div>
         <div className="open-jobsvisit">
@@ -101,7 +101,7 @@ const Openpage = () => {
             }}
           >
             <span>Job Visit</span>
-            <span>Total:9</span>
+            {/* <span>Total:9</span> */}
           </div>
         </div>
       </div>
