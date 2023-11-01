@@ -9,7 +9,7 @@ const Headerform = () => {
           <Link to="/">
             <img
               style={{ width: "150px", marginLeft: "20px" }}
-              src="https://brihaspathi.com/img/logo/logo.png"
+              src="./vistormangementlogo.png"
               alt=""
             />
           </Link>

@@ -7,7 +7,8 @@ const Footer = () => {
         <div className="footer-down-logoi">
           <img
             style={{ width: "200px" }}
-            src="https://brihaspathi.com/img/logo/logo.png"
+            src="./vistormangementlogo.png"
+            // https://brihaspathi.com/img/logo/logo.png
             alt=""
           />
         </div>

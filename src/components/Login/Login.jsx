@@ -27,7 +27,7 @@ const Login = () => {
                   marginLeft: "20px",
                   position: "relative",
                 }}
-                src="https://brihaspathi.com/img/logo/logo.png"
+                src="./vistormangementlogo.png"
                 alt=""
               />
             </div>
